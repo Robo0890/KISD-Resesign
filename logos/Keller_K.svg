@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Blender, SVG Export for Grease Pencil - v1.0 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.0" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" width="512px" height="512px" viewBox="0 0 512 512">
+	<clipPath id="clip-path1">
+		<rect x="0" y="0" width="512" height="512" fill="none" />
+	</clipPath>
+	<g id="blender_frame_1" clip-path="url(#clip-path1)">
+		<g id="blender_object_GPencil">
+			<!--Layer: Plane_001_Fills-->
+			<g id="Plane_001_Fills">
+				<polygon fill="#FEFEFE" stroke="none" fill-opacity="1" points="179.445602,257.888977 333.951691,257.888977 488.342743,26.129852 333.836670,26.129852" />
+				<polygon stroke="#FEFEFE" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="10" points="179.445602,257.888977 333.951691,257.888977 488.342743,26.129852 333.836670,26.129852" />
+				<polygon fill="#FEFEFE" stroke="none" fill-opacity="1" points="24.824493,489.648102 179.330597,489.648102 179.330597,26.129852 24.824493,26.129852" />
+				<polygon stroke="#FEFEFE" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="10" points="24.824493,489.648102 179.330597,489.648102 179.330597,26.129852 24.824493,26.129852" />
+				<polygon fill="#FEFEFE" stroke="none" fill-opacity="1" points="333.836670,489.648102 488.342743,489.648102 333.951691,257.888977 179.445602,257.888977" />
+				<polygon stroke="#FEFEFE" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="10" points="333.836670,489.648102 488.342743,489.648102 333.951691,257.888977 179.445602,257.888977" />
+			</g>
+		</g>
+	</g>
+</svg>

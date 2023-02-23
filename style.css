@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    --kisd-green: #167A42;
+    --kisd-blue: #064C8A;
+    --kisd-bg: rgb(255, 255, 255);
+    --keller-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* background-image: linear-gradient(to top left, var(--kisd-blue), var(--kisd-green)); */
+    background-color: var(--kisd-bg);
+}
+
+.banner {
+    transition: all .5s;
+    padding: 25px;
+    height: 3rem;
+    display: flex;
+    font-family: var(--keller-font);
+    font-size: xx-large;
+    width: 12rem;
+    justify-items: start;
+    background-image: linear-gradient(45deg, var(--kisd-green) calc(100% - 100px), transparent calc(100% - 100px));
+}
+.K {
+    transition: all .5s;
+    height: 4rem;
+    width: 4rem;
+}
+
+.K polygon {
+    transition: all .5s;
+    fill: var(--kisd-bg);
+    stroke: var(--kisd-bg);
+}
+
+.navbar {
+    height: 4rem;
+    width: 100%;
+    background-color: var(--kisd-green);
+    vertical-align: middle;
+
+    text-align: left;
+
+    color: var(--kisd-bg);
+    font-family: var(--keller-font);
+}
+
+.navbar a {
+    transition: all .5s;
+    padding: 5px;
+    margin-inline: 5px;
+    line-height: 4rem;
+    text-align: center;
+
+    margin-inline: 25px;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    border-style: hidden hidden solid hidden;
+    border-color: var(--kisd-bg);
+
+    border-width: 0;
+}
+
+.navbar:hover a {
+    opacity: 50%;
+}
+.navbar a:hover {
+    opacity: 1;
+    padding-inline: 25px;
+    border-width: 2px;
+}
+
+.navbar #hamburger {
+    background-color: transparent;
+    border: hidden;
+
+    
+}
+
+
+
