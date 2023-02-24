@@ -30,6 +30,7 @@ body {
     justify-items: start;
     background-image: linear-gradient(45deg, var(--kisd-green) calc(100% - 100px), transparent calc(100% - 100px));
 }
+
 .K {
     transition: all .5s;
     height: 4rem;
@@ -52,14 +53,22 @@ body {
 
     color: var(--kisd-bg);
     font-family: var(--keller-font);
+
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
 }
 
 .navbar a {
     transition: all .5s;
     padding: 5px;
     margin-inline: 5px;
-    line-height: 4rem;
     text-align: center;
+
 
     margin-inline: 25px;
 
@@ -76,17 +85,57 @@ body {
 .navbar:hover a {
     opacity: 50%;
 }
+
 .navbar a:hover {
     opacity: 1;
     padding-inline: 25px;
     border-width: 2px;
+}
+.navbar #hamburger:hover {
+    /* background-color: var(--kisd-blue); */
 }
 
 .navbar #hamburger {
     background-color: transparent;
     border: hidden;
 
-    
+    height: min-content;
+    width: auto;
+
+    color: white;
+
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
+
+
+}
+
+#hamburger div {
+    transition: all .5s;
+    background-color: white;
+    height: 4px;
+    width: 2rem;
+
+    margin: 5px;
+
+    border-radius: 5px;
+}
+
+#hamburger div:nth-child(1) {
+    width: 2rem;
+}
+#hamburger div:nth-child(2) {
+    width: 1.33rem;
+}
+#hamburger div:nth-child(3) {
+    width: .66rem;
+}
+#hamburger:hover div {
+    width: 2rem;
 }
 
 
