@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -30,16 +31,34 @@
             <div class="traiangle-right"></div>
         </div>
         <nav class="navbar">
-            <a>Home</a>
-            <a>Schools</a>
-            <a>Events</a>
-            <a>Canvas</a>
-            <button id="hamburger">
+            <a class="link">Home</a>
+            <a class="link">Schools</a>
+            <a class="link">Events</a>
+            <a class="link">Canvas</a>
+            <button id="hamburger" onclick="open_burger()" open="false">
                 <div></div>
                 <div></div>
                 <div></div>
             </button>
+            <nav id="ham_menu" open="false">
+                <li class="link">Board of Trustees</li>
+                <li class="link">Departments</li>
+                <li class="link">Get Involved</li>
+                <li class="link">Careers</li>
+                <li class="link">About</li>
+                <li class="link">Staff</li>
+            </nav>
         </nav>
+        <div id="news">
+            <div id="carosel">
+                <img src="https://www.kellerisd.net/cms/lib/TX02215599/Centricity/ModuleInstance/174/large/Slideshow_WrestlingState23.jpg" alt="Wrestling State 2023">
+                <img src="https://www.kellerisd.net/cms/lib/TX02215599/Centricity/ModuleInstance/174/large/Slideshow_Swimming.jpg" alt="Keller High Swim Team 2023">
+                <img src="https://www.kellerisd.net/cms/lib/TX02215599/Centricity/ModuleInstance/174/large/Slideshow_FilmFest23.jpg" alt="KISD Film Festival">
+                <img src="https://www.kellerisd.net/cms/lib/TX02215599/Centricity/ModuleInstance/174/large/Slideshow_BoardElection.jpg" alt="Board Election">
+                <img src="https://www.kellerisd.net/cms/lib/TX02215599/Centricity/ModuleInstance/174/large/Slideshow_BlackHistoryMonth.jpg" alt="Black History Month">
+                <img src="https://www.kellerisd.net/cms/lib/TX02215599/Centricity/ModuleInstance/174/large/Slideshow_AppReminder.jpg" alt="Download KISD app">
+            </div>
+        </div>
     </body>
 
 
